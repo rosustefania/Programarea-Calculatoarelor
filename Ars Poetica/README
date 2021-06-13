@@ -1,0 +1,15 @@
+-Am facut consola si am citit comenzi pana dadeam de quit.
+-Pt functia de load path am folosit strtok pt a separa comanda de cale,
+iar dupa ce am incarcat fisierul am alcatuit un vector de versuri.
+-Pt functia de uppercase, am parcurs fiecare vers al poeziei,mai intai am
+transformat primele caractere al versurilor in majuscula si apoi restul in 
+minuscula,daca era cazul.Stiind ca fiecare poezie este formata din catrene
+dupa fiecare 4 versuri adaug un rand liber.La sfarsit am pus poezia inapoi in
+vectorul initial cu strcat
+-Pt functia de trimming, m-am folosit de codul ascii ar caracterelor date.
+Mai intai am sters "," , "." , "?" , "!" , ";" , ":".Apoi am inlocuit spatiile
+multiple cu unul singur.
+-Pt functia Silly, am separat cu strtok probabilitatea de comanda,transformand-o
+din string in float.Am parcurs poezia, prin vectorul de versuri, generand pt
+fiecare litera un numar random intre 0 si 1.Daca acest numar era mai mic decat
+probabilitatea data transformam caracterul in majuscula sau minuscula, dupa caz.
